@@ -8,7 +8,6 @@
         body, html {
             height: 100%;
             margin: 0;
-            display: flex;
             justify-content: center;
             align-items: center;
             background-color: #f0f0f0;
@@ -36,20 +35,21 @@
 </head>
 <body>
     <center>Buttons with no actions</center>
-    <div class="container">
+    <p class="container">
         <button class="button success" onclick="window.location.href='https://testing.vivino.com/age_verification/success';">Success</button>
         <button class="button failure" onclick="window.location.href='https://testing.vivino.com/age_verification/failure';">Failure</button>
-    </div>
+    </p>
+    <br><br>
     <center>Buttons with close now action</center>
-    <div class="container">
+    <p class="container">
         <button class="button success" onclick="window.location.href='https://testing.vivino.com/age_verification/success'; window.close();">Success</button>
         <button class="button failure" onclick="window.location.href='https://testing.vivino.com/age_verification/failure'; window.close();">Failure</button>
-    </div>
-
+    </p>
+    <br><br>
     <center>Buttons with close with delay action</center>
-    <div class="container">
+    <p class="container">
         <button class="button success" onclick="window.location.href='https://testing.vivino.com/age_verification/success'; setTimeout('window.close();', 200);">Success</button>
         <button class="button failure" onclick="window.location.href='https://testing.vivino.com/age_verification/failure'; setTimeout('window.close();', 200);">Failure</button>
-    </div>
+    </p>
 </body>
 </html>
