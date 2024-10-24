@@ -36,20 +36,20 @@
 <body>
     <center>Buttons with no actions</center>
     <p class="container">
-        <button class="button success" onclick="window.location.href='https://testing.vivino.com/age_verification/success';">Success</button>
-        <button class="button failure" onclick="window.location.href='https://testing.vivino.com/age_verification/failure';">Failure</button>
+        <button class="button success" onclick="window.location.href='https://testing.vivino.com/age_verification?status=success';">Success</button>
+        <button class="button failure" onclick="window.location.href='https://testing.vivino.com/age_verification?status=failure';">Failure</button>
     </p>
     <br><br>
     <center>Buttons with close now action</center>
     <p class="container">
-        <button class="button success" onclick="window.location.href='https://testing.vivino.com/age_verification/success'; window.close();">Success</button>
-        <button class="button failure" onclick="window.location.href='https://testing.vivino.com/age_verification/failure'; window.close();">Failure</button>
+        <button class="button success" onclick="window.location.href='https://testing.vivino.com/age_verification?status=success'; window.close();">Success</button>
+        <button class="button failure" onclick="window.location.href='https://testing.vivino.com/age_verification?status=failure'; window.close();">Failure</button>
     </p>
     <br><br>
     <center>Buttons with close with delay action</center>
     <p class="container">
-        <button class="button success" onclick="window.location.href='https://testing.vivino.com/age_verification/success'; setTimeout('window.close();', 200);">Success</button>
-        <button class="button failure" onclick="window.location.href='https://testing.vivino.com/age_verification/failure'; setTimeout('window.close();', 200);">Failure</button>
+        <button class="button success" onclick="window.location.href='https://testing.vivino.com/age_verification?status=success'; setTimeout('window.close();', 200);">Success</button>
+        <button class="button failure" onclick="window.location.href='https://testing.vivino.com/age_verification?status=failure'; setTimeout('window.close();', 200);">Failure</button>
     </p>
 </body>
 </html>
